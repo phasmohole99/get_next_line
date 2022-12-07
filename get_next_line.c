@@ -6,7 +6,7 @@
 /*   By: mrital- <mrital-@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 14:59:30 by mrital-           #+#    #+#             */
-/*   Updated: 2022/12/04 22:14:38 by mrital-          ###   ########.fr       */
+/*   Updated: 2022/12/07 15:33:58 by mrital-          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,7 +111,8 @@ char	*get_next_line(int fd)
 // 	char	*s;
 
 // 	fd = open("test", O_RDONLY);
-// 	while ((s = get_next_line(fd)))
-// 		printf("%s", s);
+// 	printf("%s",ft_read(s,fd));
+// 	// while ((s = get_next_line(fd)))
+// 	// 	printf("%s", s);
 // 	return (0);
 // }
